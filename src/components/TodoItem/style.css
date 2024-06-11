@@ -1,0 +1,29 @@
+.item {
+  background-color: rgb(21, 82, 70);
+  width: 90%;
+  height: 30px;
+  border-radius: 2px;
+  list-style-type: none;
+  margin: 10px 0px 10px 0px;
+  padding: 6px 10px 6px 10px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.button {
+  cursor: pointer;
+  background-color: rgb(201, 127, 127);
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  margin-top: 5px;
+  color: white;
+  border-style: none;
+}
+.button:hover {
+  background-color: rgb(121, 169, 169);
+  color: rgb(218, 17, 17);
+}
